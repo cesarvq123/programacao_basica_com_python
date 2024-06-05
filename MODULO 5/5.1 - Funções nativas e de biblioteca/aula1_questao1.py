@@ -1,0 +1,5 @@
+n = float(input("Digite um número decimal: "))
+m = float(input("Mais um: "))
+x = abs(n - m)
+y = round(x , 2)
+print(f"A diferença entre {n} e {m} é {y}")
